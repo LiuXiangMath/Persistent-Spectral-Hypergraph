@@ -1,0 +1,1 @@
+ligand based eigenvalue information
