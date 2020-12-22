@@ -1,6 +1,7 @@
 Persistent Spectral Hypergraph
 ====
-    This manual is for the code implementation of paper 'Persistent spectral hypergraph based machine learning (PSH-ML) for protein-ligand binding affinity prediction'
+    This manual is for the code implementation of paper 'Persistent spectral hypergraph based machine learning (PSH-ML) 
+    for protein-ligand binding affinity prediction'
     
 ****
 # Contents
