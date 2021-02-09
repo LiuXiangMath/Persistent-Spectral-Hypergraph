@@ -8,6 +8,7 @@ Persistent Spectral Hypergraph
 * [1. Software configuration](#Software-configuration)
 * [2. Data preparation](#Data-preparation)
 * [3. Get the results](#Get-the-results)
+* [4. For your model](#For-your-model)
 
 # Software configuration
 ---
@@ -63,5 +64,10 @@ cd code
 ```linux
 python PDBbind2007.py
 ```
+# For your model
+* You can use our HPS model characterize other interactions, like protein-protein binding affinity, protein-RNA binding affinity and so on. When you apply our model to other problems, you need to extract the corresponding coordinate information by yourself, in other word, you need to rewrite the code that extracting coordinate data. Here the format of coordinate data should be same with ours. The detailed format information can be found in function pocket_coordinate_data_to_file(start,end) in folder "code".
+* You can take of our topological descriptors as a representation for protein-ligand binding affinity. So you can combine these descriptors with other machine learning methods or deep learning methods to deal with specific problems.
+
 
 ***
+
